@@ -422,15 +422,15 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 
 The beginning and ending dollar signs (`$`) are the delimiters for the TeX markup.
 
-## Build the book's site HTML locally
+## Build the book's HTML locally
 
 Once you've generated the markdown for your notebooks and installed the
-necessary dependencies. You are ready to build your site HTML.
+necessary dependencies. You are ready to build your book HTML.
 
 Ensure that your notebooks have been converted to markdown, there should be a
 collection of them in `_build/`.
 
-In order to locally build your site's HTML with Jekyll, you'll need to either install
+In order to locally build your book's HTML with Jekyll, you'll need to either install
 a container software (Docker or Singularity) or Ruby.
 
 In our experience, we've found that [containers](https://www.docker.com/resources/what-container)
@@ -468,7 +468,7 @@ docker run --rm --security-opt label:disable  \
 If you navigate to `http://0.0.0.0:4000/jupyter-book/` in your browser,
 you should see a preview copy of your book.
 If you instead see an error, please try to update your local book;
-see [the Jupyter Book FAQ section](https://jupyter.org/jupyter-book/guide/04_faq.html#how-can-i-update-my-book)
+see [the Jupyter Book FAQ section](https://jupyterbook.org/guide/04_faq.html#how-can-i-update-my-book)
 for more details on how to do so.
 
 ### Building your site locally with Containers: Singularity
